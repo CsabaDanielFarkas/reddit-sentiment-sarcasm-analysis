@@ -35,4 +35,4 @@ I pre-trained a sarcasm detector using the "Sarcastic Headlines Dataset" - avail
     <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/AbortionBan.png">
 </p>
 
-By both cases, Flair does a great job, the sentiment analysis almost makes no changes. When Flair reads posts with mostly 50/50, that's when the sarcasm detector shines the most. It is still up to the user to analyze the findings themselves, since the human language really is cryptic. 
+By both cases, Flair does a great job, the sentiment analysis almost makes no changes. When Flair reads posts with mostly 50/50, that's when the sarcasm detector shines the most. It almost always pushes the stats towards the right answer! It is still up to the user to analyze the findings themselves, since the human language really is cryptic. 
