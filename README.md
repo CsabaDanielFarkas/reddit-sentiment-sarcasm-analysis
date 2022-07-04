@@ -19,3 +19,18 @@ Swapping values when irony is detected. At the end, we will demonstrate, that th
 ## VADER v Flair v TextBlob
 All three yielded pretty good results, all of them had their pros and cons. Mainly the training set and the algorithms themselves.
 TextBlob and VADER weren't much different. VADER itself is well fit for social media, but it is uses a lexical approach - it doesn't use any ML algorithms. That is no problem though. Flair on the other hand was pre-trained on an IMDB dataset, which is quite different from social media, but it still did well. In a notable case "Jake beat cancer", which is a positive message, VADER yielded NEGATIVE, since both words "beat" and "cancer" are very negative. On the other hand, Flair yielded a POSITIVE message. Thus, very impressed by Flair, I decided to use it. 
+
+## Sarcasm detection
+I pre-trained a sarcasm detector using the "Sarcastic Headlines Dataset" - available on Kaggle. First step was to vectorize the words using the TfidfVectorizer, then later training it with a LinearSVC model. The model worked with minor flaws.
+
+#Final results
+- Weight loss journey: https://www.reddit.com/r/progresspics/comments/g0h7wm/m3168_764lbs_299lbs_465lbs_update_6_finally_under/
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/sarcasm_table.PNG">
+</p>
+
+- Abortion ban news: https://www.reddit.com/r/news/comments/vjpfbh/supreme_court_overturns_roe_v_wade_states_can_ban/
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/sarcasm_table.PNG">
+</p>
