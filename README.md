@@ -23,7 +23,7 @@ TextBlob and VADER weren't much different. VADER itself is well fit for social m
 ## Sarcasm detection
 I pre-trained a sarcasm detector using the "Sarcastic Headlines Dataset" - available on Kaggle. First step was to vectorize the words using the TfidfVectorizer, then later training it with a LinearSVC model. The model worked with minor flaws.
 
-#Final results
+# Final results
 - Weight loss journey: https://www.reddit.com/r/progresspics/comments/g0h7wm/m3168_764lbs_299lbs_465lbs_update_6_finally_under/
 
 <p align="center" width="100%">
