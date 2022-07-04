@@ -27,12 +27,12 @@ I pre-trained a sarcasm detector using the "Sarcastic Headlines Dataset" - avail
 - Weight loss journey: https://www.reddit.com/r/progresspics/comments/g0h7wm/m3168_764lbs_299lbs_465lbs_update_6_finally_under/
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/WeightLoss.png">
+    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/WeightLoss.jpg">
 </p>
 
 - Abortion ban news: https://www.reddit.com/r/news/comments/vjpfbh/supreme_court_overturns_roe_v_wade_states_can_ban/
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/AbortionBan.png">
+    <img width="50%" src="https://github.com/CsabaDanielFarkas/reddit-sentiment-sarcasm-analysis/blob/main/Images/AbortionBan.jpg">
 </p>
 
 By both cases, Flair does a great job, the sentiment analysis almost makes no changes. When Flair reads posts with mostly 50/50, that's when the sarcasm detector shines the most. It almost always pushes the stats towards the right answer! It is still up to the user to analyze the findings themselves, since the human language really is cryptic. 
